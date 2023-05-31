@@ -29,5 +29,5 @@ export default async function og() {
 }
 
 const IMAGE_QUERY = groq`
-  *[_type == 'settings'][0].meta.title.en
+  *[_type == 'metaCollection'][0].meta.title.en
 `;
